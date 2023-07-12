@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7F7F7"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/line"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/line_img"/>
+    <TextView
+        android:id="@+id/title"
+        android:textColor="#111111"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/lovelace_regular"
+        android:text="PrintMaster"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_below="@id/title"
+        android:id="@+id/title_2"
+        android:textColor="#111111"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-10dp"
+        android:fontFamily="@font/lovelace_regular"
+        android:text="Smart Print &amp; Scan"
+        android:textSize="25sp" />
+    <ImageView
+        android:id="@+id/img"
+        android:layout_below="@id/line"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/choose_printer_item"/>
+    <TextView
+        android:id="@+id/choiseTv"
+        android:layout_below="@id/img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Which printer do you use ?"
+        android:textSize="22sp"
+        android:textColor="#111111"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/satoshi_regular"/>
+    <LinearLayout
+        android:layout_below="@id/choiseTv"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/hpTv"
+            android:background="@drawable/select_printer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HP"
+            android:textAlignment="center"
+            android:fontFamily="@font/satoshi_regular"
+            android:textColor="#111111"
+            android:textSize="20sp"/>
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/canonTv"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canon"
+            android:textAlignment="center"
+            android:fontFamily="@font/satoshi_regular"
+            android:textColor="#A0A7AB"
+            android:textSize="20sp"/>
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/brotherTv"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brother"
+            android:textAlignment="center"
+            android:fontFamily="@font/satoshi_regular"
+            android:textColor="#A0A7AB"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/bottomLinear"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginBottom="20dp"
+    android:padding="10dp"
+    android:background="@drawable/choose_printer_start_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Printing"
+            android:textColor="#111111"
+            android:textSize="18sp"
+            android:fontFamily="@font/satoshi_medium"/>
+        <LinearLayout
+            android:padding="5dp"
+            android:background="@drawable/choose_printer_next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="17dp"
+                android:src="@drawable/choose_printer_next_img"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+</RelativeLayout>

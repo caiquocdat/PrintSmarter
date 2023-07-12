@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CameraScanActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#AAB2FF"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <TextView
+                android:fontFamily="@font/satoshi_regular"
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Scan Document"
+                android:textColor="#F7F7F7"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_marginRight="16dp"
+                android:id="@+id/toolbar_auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Auto"
+                android:textColor="#F7F7F7"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <TextView
+                android:visibility="gone"
+                android:layout_marginRight="16dp"
+                android:id="@+id/toolbar_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Normal"
+                android:textColor="#F7F7F7"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.camera.view.PreviewView
+            android:layout_below="@id/toolbar"
+            android:id="@+id/viewFinder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/capture_button"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/photo_fragment_img_take_photo"/>
+        <ImageView
+            android:id="@+id/flash_button"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:src="@drawable/img_flash"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

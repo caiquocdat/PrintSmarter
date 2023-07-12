@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.homefragment.LibraryFragment">
+
+    <RelativeLayout
+        android:id="@+id/tootRel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#AAB2FF"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableRight="@drawable/library_down_img"
+                android:text="Library"
+                android:fontFamily="@font/satoshi_regular"
+                android:textColor="#F7F7F7"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:fontFamily="@font/satoshi_regular"
+                android:id="@+id/toolbar_nextTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="16dp"
+                android:text="Next"
+                android:textColor="#37469E"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:id="@+id/imgRel"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/toolbar">
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/detailImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fragme_library_img"/>
+            <ImageView
+                android:id="@+id/defaultImg"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="3dp"
+                android:layout_alignParentBottom="true"
+                android:scaleType="centerCrop"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/fragment_library_img_zoom"/>
+        </RelativeLayout>
+        <GridView
+            android:verticalSpacing="1dp"
+            android:horizontalSpacing="1dp"
+            android:layout_below="@id/imgRel"
+            android:id="@+id/allImageGr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchMode="columnWidth"
+            android:numColumns="4"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/test"/>
+    </RelativeLayout>
+
+
+</FrameLayout>
