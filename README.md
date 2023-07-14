@@ -1,11 +1,11 @@
 # Some interface of the application:
-![onbording_1](https://github.com/caiquocdat/SappAi-Ver-1/assets/71485766/0d94b777-dab7-4516-a500-e581876fd8d5)
-![onbording_2](https://github.com/caiquocdat/SappAi-Ver-1/assets/71485766/4f6a7dcf-3377-41ab-b5dc-2687c5895329)
-![onbording_3](https://github.com/caiquocdat/SappAi-Ver-1/assets/71485766/4a0b9683-41ee-4dbd-a737-a461c15c0da8)
-![onbording_3_detail](https://github.com/caiquocdat/SappAi-Ver-1/assets/71485766/bf54d680-b2df-48a4-b351-dfc7fedbefed)
-![home](https://github.com/caiquocdat/SappAi-Ver-1/assets/71485766/88c48d4b-cb9d-4a9f-a099-f6271497fecc)
-![home_detail](https://github.com/caiquocdat/SappAi-Ver-1/assets/71485766/ebca732d-4445-4f8b-a6b9-f8ff42d6bff3)
-![explore](https://github.com/caiquocdat/SappAi-Ver-1/assets/71485766/8dbb24b6-471c-4989-9308-8b0101c31c36)
-![explore_detail](https://github.com/caiquocdat/SappAi-Ver-1/assets/71485766/0a16ea13-1b0c-4609-91c9-edeb01e95eb8)
-![recents](https://github.com/caiquocdat/SappAi-Ver-1/assets/71485766/760949ea-9320-4ce5-94c4-67f8730e8191)
+![setting](https://github.com/caiquocdat/PrintSmarter/assets/71485766/d8c0b10c-1f5b-4fad-bcb4-fb713a8d4c4e)
+![scan](https://github.com/caiquocdat/PrintSmarter/assets/71485766/981b92c1-03d3-4438-855e-88e2daa92c2a)
+![home](https://github.com/caiquocdat/PrintSmarter/assets/71485766/b14b286a-0fd3-487e-9502-e89c42320fe8)
+![onbording_4](https://github.com/caiquocdat/PrintSmarter/assets/71485766/908b4ae2-e689-4762-87c1-dd34dd167261)
+![onbording_3](https://github.com/caiquocdat/PrintSmarter/assets/71485766/9bc96721-482e-4c0f-9fbf-696ae9c2488a)
+![onbording_2](https://github.com/caiquocdat/PrintSmarter/assets/71485766/7c2ab41a-ea3f-4217-859e-d7f861e8736a)
+![onbording_1](https://github.com/caiquocdat/PrintSmarter/assets/71485766/9b7c80a3-78bf-48b6-9ef7-c86a2d3c99ba)
+
+
 
